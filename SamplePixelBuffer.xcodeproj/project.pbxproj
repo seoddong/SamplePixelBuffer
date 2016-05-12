@@ -12,6 +12,7 @@
 		740E0DA61CE49926005F79B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740E0DA41CE49926005F79B5 /* Main.storyboard */; };
 		740E0DA81CE49926005F79B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740E0DA71CE49926005F79B5 /* Assets.xcassets */; };
 		740E0DAB1CE49926005F79B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740E0DA91CE49926005F79B5 /* LaunchScreen.storyboard */; };
+		740E0DB31CE49B44005F79B5 /* ImagesToVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740E0DB21CE49B44005F79B5 /* ImagesToVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		740E0DA71CE49926005F79B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		740E0DAA1CE49926005F79B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		740E0DAC1CE49926005F79B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740E0DB21CE49B44005F79B5 /* ImagesToVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesToVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		740E0D9F1CE49926005F79B5 /* SamplePixelBuffer */ = {
 			isa = PBXGroup;
 			children = (
+				740E0DB21CE49B44005F79B5 /* ImagesToVideo.swift */,
 				740E0DA01CE49926005F79B5 /* AppDelegate.swift */,
 				740E0DA21CE49926005F79B5 /* ViewController.swift */,
 				740E0DA41CE49926005F79B5 /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740E0DB31CE49B44005F79B5 /* ImagesToVideo.swift in Sources */,
 				740E0DA31CE49926005F79B5 /* ViewController.swift in Sources */,
 				740E0DA11CE49926005F79B5 /* AppDelegate.swift in Sources */,
 			);

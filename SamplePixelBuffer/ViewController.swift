@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageview: UIImageView!
+    var image: UIImage!
+    var path: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        image = UIImage.init(named: "test.png")
+        imageview.image = image
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btn1Pressed(sender: AnyObject) {
+        let imagestovideo = ImagesToVideo(sender: self)
+        imagestovideo.pixelBufferFromImage(self.image)
+    }
 
 }
 
